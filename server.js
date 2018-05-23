@@ -38,14 +38,11 @@ app.get("/api/tables", function(req, res) {
   return res.json(tables);
 });
 
-<<<<<<< HEAD
 
 
 // create routes 
 // require("./routes/apiRoutes")(app);
 // require("./routes/htmlRoutes")(app);
-=======
->>>>>>> 54b687ad3f6c1fd10b1d814ea5210a0432cade67
 
 // Create New Characters - takes in JSON input
 app.post("/api/tables", function(req, res) {
@@ -57,17 +54,14 @@ app.post("/api/tables", function(req, res) {
   // You can read more about RegEx Patterns later https://www.regexbuddy.com/regex.html
   newcharacter.name = newcharacter.name.replace(/\s+/g, "").toLowerCase();
 
-<<<<<<< HEAD
   console.log(newcharacter);
 
-  characters.push(newcharacter);
+  tables.push(newcharacter);
 
   res.json(newcharacter);
 });
 
 // we need a listner for it to work, duh
-=======
->>>>>>> 54b687ad3f6c1fd10b1d814ea5210a0432cade67
 app.listen(PORT, function() {
   console.log("App listening on PORT: " + PORT);
 });
