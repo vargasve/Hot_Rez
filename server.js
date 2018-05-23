@@ -35,7 +35,7 @@ app.get("/api/tables", function(req, res) {
 // require("./routes/apiRoutes")(app);
 // require("./routes/htmlRoutes")(app);
 
-// we need a listner for it to work, duh
+// I heard you need a listner
 
 
 
